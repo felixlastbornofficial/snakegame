@@ -1,7 +1,7 @@
 const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
-const blockSize = 20;
+const blockSize = 21;
 const canvasSize = 400;
 const numBlocks = canvasSize / blockSize;
 const appleSize = blockSize - 2;
