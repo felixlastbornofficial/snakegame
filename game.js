@@ -70,6 +70,7 @@ function checkCollision() {
     if (head.x === snake[i].x && head.y === snake[i].y) {
       return true;
     }
+    
   }
 
   return false;
